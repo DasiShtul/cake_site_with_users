@@ -9,5 +9,4 @@ async function main() {
   await mongoose.connect(`mongodb+srv://${config.userDb}:${config.passDb}@cluster0.k0svbyg.mongodb.net/black23`);
   console.log("connect1")
 
-
 }
